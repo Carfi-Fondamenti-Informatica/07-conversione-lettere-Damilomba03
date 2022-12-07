@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     char a;
     cin>>a;
-    if (verifica(a)==true)
+    if (verifica(a))
     {
         cout<<lettera(a)<<endl;
     }
