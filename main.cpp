@@ -4,13 +4,11 @@ using namespace std;
 int main() {
     char a;
     cin>>a;
-    if (verifica(a)== true)
-    {
+    if (verifica(a)==true){
         cout<<lettera(a)<<endl;
     }
-    else
-    {
-        cout<<"ERRORE"<<endl;
+    else{
+        cout<<"errore"<<endl;
     }
-    return 0;
 }
+
